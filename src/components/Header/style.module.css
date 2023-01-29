@@ -1,0 +1,26 @@
+.title {
+  text-align: center;
+  font-size: 30px;
+}
+
+.info {
+  background-color: #2d3436;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  border-radius: 10px;
+  color: #dfe6e9;
+}
+.name {
+  width: 55%;
+  text-align: center;
+}
+.price {
+  width: 15%;
+  text-align: start;
+}
+.count {
+  width: 12%;
+  text-align: start;
+}

@@ -1,0 +1,8 @@
+.page {
+  width: 60%;
+  border-radius: 20px;
+  margin: 20px auto 0;
+  background-color:#dfe6e9;
+  border: 1px solid black;
+  padding: 40px;
+}

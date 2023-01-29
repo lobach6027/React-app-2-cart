@@ -1,0 +1,68 @@
+.container {
+  display: flex;
+  height: 200px;
+  padding: 20px;
+  border-bottom: 2px solid black;
+}
+.pict {
+  width: 20%;
+  border: 1px solid black;
+  padding: 10px;
+  background-color: white;
+  object-fit: cover;
+}
+.info {
+  width: 30%;
+  padding: 15px;
+}
+.info h3 {
+  font-size: 25px;
+}
+.info h4 {
+  font-size: 20px;
+}
+.count {
+  width: 10%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  font-size: 22px;
+}
+.countButton{
+  cursor: pointer;
+  margin-left: 2px;
+}
+.price {
+  width: 15%;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.delEl {
+  width: 5%;
+  display: flex;
+  justify-content: end;
+}
+.delButton {
+  border: none;
+  background-color:#dfe6e9;
+  width: 25px;
+  height: 25px;
+  font-size: 20px;
+  cursor: pointer;
+  border-radius: 50%;
+}
+.delButton:hover{
+  background-color: lightgray;
+  color: white;
+}
+.countOfOneType {
+  width: 20%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+
+}
